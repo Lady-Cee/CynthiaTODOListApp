@@ -1,0 +1,147 @@
+body{
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+margin-left: 30%;
+margin-right: 30%;
+border:1px solid white;
+margin-top:50px;
+background-color: rgb(242, 238, 238);
+border-radius: 10px;
+padding-left: 1em;
+padding-right:1em ;
+max-width: 30em;
+}
+
+#new-task{
+    line-height:2rem;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    border-bottom: 2px solid black;
+    
+}
+#task-list{
+    width: 20em;
+    height: 3em;
+    border-radius: 10px;
+    border-color: rgb(168, 168, 162);
+    padding-left: 1em;
+}
+
+#add-btn{
+    width: 6em;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    margin-left: 7em;
+    background-color: rgb(159, 159, 240);
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+.check-mail li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+hr{
+   border-color: rgb(249, 247, 247);
+   
+}
+
+#add-btn:hover{
+    color:azure;
+    cursor: pointer;
+}
+
+.report li{
+    display: flex;
+    justify-content: space-between;    
+    margin-bottom: 20px;
+}
+
+.check-mail #edit-btn{
+    margin-left: 5em;
+}
+
+#edit-btn{
+    margin-right: 6em;
+    background-color:gray;
+    border: none;
+    border-radius: 5px;
+    color: rgb(171, 169, 169);
+    font-weight: bolder;
+    font-size: 16x;
+}
+#edit-btn:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#delete-btn{
+    background-color:gray;
+    border: none;
+    border-radius: 5px;
+    color: rgb(171, 169, 169);
+    font-weight: bolder;
+    font-size: 16x;
+}
+
+#delete-btn:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.cheque li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.session li{
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 20px;
+}
+/*
+.check-mail-btn{
+    position: absolute;
+    top:100%;
+}
+/*
+.new-task1{
+    position: absolute;
+}
+
+.new-task11{
+    position: absolute;
+
+    right: 100%;
+}
+
+.new-task11 button{
+    position: absolute;
+    left: 100;
+}   */
+
+li{
+
+    list-style: none;
+    
+   
+}
+/* 
+p{
+    display: flex;
+}  */
