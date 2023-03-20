@@ -27,7 +27,7 @@ h3{
     border-bottom: 2px solid black;
     
 }
-#task-list{
+#input-field{
     width: 20em;
     height: 3em;
     border-radius: 10px;
@@ -114,26 +114,6 @@ hr{
     justify-content: space-between;  
     margin-bottom: 20px;
 }
-/*
-.check-mail-btn{
-    position: absolute;
-    top:100%;
-}
-/*
-.new-task1{
-    position: absolute;
-}
-
-.new-task11{
-    position: absolute;
-
-    right: 100%;
-}
-
-.new-task11 button{
-    position: absolute;
-    left: 100;
-}   */
 
 li{
 
@@ -141,7 +121,3 @@ li{
     
    
 }
-/* 
-p{
-    display: flex;
-}  */
